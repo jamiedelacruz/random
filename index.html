@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title> jQuery Mobile Icon Pack</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- jQuery Mobile CSS bits -->
+    <link rel="stylesheet"  href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css" />
+    <link rel="stylesheet"  href="http://code.jquery.com/mobile/1.4.0/jquery.mobile.icons-1.4.0.css" />
+    <link rel="stylesheet"  href="icon-pack-custom.css" />
+<script src="jquery/jquery.mobile-1.4.5.css"></script>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	 <script src="js/random.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>	
+</head>
+<body class="ui-body-a">
+		
+<!--Page1-->
+		<div data-role="page" id="page1">
+		<div data-role="main" class="ui-content" data-theme="a">
+		<a href="#page2" data-transition="flip" style="text-decoration: none;" class="ui-btn"> WOW TALAGA!</a>
+		<center> <img src="./1.jpg" height="320px" width="280px" ></center>
+		<center><a class="twitter-follow-button"
+  href="https://twitter.com/randomhugots"
+  data-show-count="false"
+  data-lang="en">
+Follow @twitterapi
+</a> <center>
+<script>window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));</script>
+					<!-- I got these buttons from simplesharebuttons.com -->
+<div id="share-buttons">
+ 
+<!-- Facebook -->
+<h1 id="status" style="text-align:"center"> </h1>
+	<center><iframe src="http://www.facebook.com/plugins/like.php?href=https://www.facebook.com/pages/Edi-Wow-Random-hugot/1410570012585306?ref=hl;
+	width=500&amp;layout=standard&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=30"
+	scrolling="no"
+	frameborder="0"
+	allowTransparency="true"></center>
+	</iframe>
+</div>
+</div>
+</div>
+
+
+<div data-role="page" data-theme="c" id="page2" align="center">
+	<div data-role="header" data-position="fixed" data-theme="e">
+	</div>
+	<div data-role="main" class="ui-content">
+	<img src="2.png" height="290px" width="300px"/>
+			<a href="#page3" data-transition="flip" style="text-decoration:none"><button>ENGLISH</button></a>
+			<a href="#page4" data-transition="flip" style="text-decoration:none"><button>TAGALOG</button></a>
+			<a href="#page1" data-transition="flip" style="text-decoration:none"><button>BACK</button></a>
+	</div>
+</div>
+
+
+
+
+<div data-role="page" id="page3">
+<div data-role="header" data-position="fixed" ><a href="#page2" data-transition="flip" data-icon="back">BACK</a><h1></h1></div>
+	<div data-role="main" class="ui-content" data-theme="d"> <br>
+<a href="#B1" data-transition="flip" style="text-decoration: none;"> <button> LOVE QUOTES </button></a>
+<a href="#B2" data-transition="flip" style="text-decoration: none;"> <button> SAD QUOTES </button> </a>
+	</div>
+ </div>
+ 
+ 
+ 
+ 
+<div data-role="page" id="page4">
+<div data-role="header" data-position="fixed" ><a href="#page2" data-transition="flip" data-icon="back">BACK</a><h1></h1></div>
+	<div data-role="main" class="ui-content" data-theme="e"> <br>
+<a href="#A1" data-transition="flip" style="text-decoration: none;" class="ui-btn"> <button> LOVE QUOTES </button></a>
+<a href="#A2" data-transition="flip" style="text-decoration: none;" class="ui-btn"> <button> SAD QUOTES </button> </a>
+<a href="#A3" data-transition="flip" style="text-decoration: none;" class="ui-btn"> <button> HUGOT LINES </button> </a>
+<a href="#A4" data-transition="flip" style="text-decoration: none;" class="ui-btn"> <button> ANG LOVE PARANG.. </button> </a>
+
+	</div>
+</div>		
+		
+		
+		
+		
+<div data-role="page" id="A1">
+	<div data-role="header" data-position="fixed"><a href="#page4" data-transition="flip" data-icon="back">BACK</a><h1></h1></div>
+		
+	<div data-role="main" class="ui-content">
+      <div class="col-lg-12 text-center"></div> 
+	  <br><br>
+		<h2 id="txtEat"  >
+		</h2> 
+	 </div>
+	 
+	 
+	<div data-role="footer" data-position="fixed">
+		
+			<div data-role="navbar">
+			<ul> 
+					<button onClick = "randomTagalogLoveQuotes()"><li><a href="#"  data-transition="none"data-icon="heart">Random</a></li></button> 
+			</ul>
+		</div>
+		</div>
+	</div>	
+
+	
+	
+	
+	
+<div data-role="page" id="A2">
+	<div data-role="header" data-position="fixed"><a href="#page4" data-transition="flip" data-icon="back">BACK</a><h1></h1></div>
+		
+	<div data-role="main" class="ui-content">
+      <div class="col-lg-12 text-center"></div> 
+	    <br><br>
+		<h2 id= "txtTslq"   >
+		</h2> 
+	 </div>
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar">
+			<ul> 
+					<button onClick = "randomTagalogSadLoveQuotes()"><li><a href="#"  data-transition="none"data-icon="heart">Random</a></li></button> 
+			</ul>
+		</div>
+	</div>	
+	</div>
+	
+	
+	
+	
+<div data-role="page" id="A3">
+	<div data-role="header" data-position="fixed"><a href="#page4" data-transition="flip" data-icon="back">BACK</a><h1></h1></div>
+		
+	<div data-role="main" class="ui-content">
+      <div class="col-lg-12 text-center"></div> 
+	    <br><br>
+		<h2 id= "txtHugot"  >
+		</h2> 
+	 </div>
+	
+	
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar">
+			<ul>
+			<button onClick = "randomHugot()"><li><a href="#"  data-transition="none" data-icon="heart">Random</a></li></button> 
+			</ul>
+		</div>
+	</div>	
+</div>
+	
+	
+	
+	
+	
+<div data-role="page" id="A4">
+	<div data-role="header" data-position="fixed"><a href="#page4" data-transition="flip" data-icon="back">BACK</a><h1></h1></div>
+		
+	<div data-role="main" class="ui-content">
+      <div class="col-lg-12 text-center"></div> 
+	    <br><br>
+		<h2 id= "txtLove"  > 
+	 
+		</h2> 
+	 </div>
+	
+	
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar">
+			<ul> 
+					<button onClick = "randomLove()"><li><a href="#"  data-transition="none" data-icon="heart">Random</a></li></button> 
+			</ul>
+		</div>
+	</div>	
+	</div>
+	
+	
+	
+<div data-role="page" id="B1">
+	<div data-role="header" data-position="fixed"><a href="#page3" data-transition="flip" data-icon="back">BACK</a><h1></h1></div>
+		
+		
+	<div data-role="main" class="ui-content">
+      <div class="col-lg-12 text-center"></div> 
+	    <br><br>
+		<h2 id= "txtElq"  > 
+	 
+		</h2> 
+	 </div>
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar">
+			<ul>
+			
+			<button onClick ="randomEnglishLoveQuotes()"><li><a href="#" data-transition="none" data-icon="heart">Random</a></li></button> 
+			</ul>
+		</div>
+	</div>	
+	</div>
+	
+	
+
+	<div data-role="page" id="B2">
+	<div data-role="header" data-position="fixed"><a href="#page3" data-transition="flip" data-icon="back">BACK</a><h1></h1></div>
+
+	<div data-role="main" class="ui-content">
+      <div class="col-lg-12 text-center"></div> 
+	    <br><br>
+		<h2 id= "txtEslq" > 
+	 
+		</h2> 
+	 </div>
+	
+	
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar">
+			<ul>
+	<button onClick="randomEnglishSadLoveQuotes()"><li><a href="#" data-transition="none" data-icon="heart">Random</a></li></button> 
+			</ul>
+		</div>
+	</div>	
+	</div>
+	
+	
+	
+	
+
+
+</body>
+</html>
